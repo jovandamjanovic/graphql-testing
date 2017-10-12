@@ -17,7 +17,7 @@ server.connection({
 
 mongoose.Promise = q.Promise;
 
-mongoose.connect('mongodb://jovandamjanovic:mongodb@ds113915.mlab.com:13915/amerbank-interview', {
+mongoose.connect(process.env.MONGODB, {
     useMongoClient: true
 });
 
