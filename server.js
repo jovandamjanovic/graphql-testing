@@ -12,8 +12,7 @@ const createResolvers = require('./graphql/resolvers');
 const server = new hapi.Server();
 
 server.connection({
-    host: 'localhost',
-    port: 8080,
+    port: process.env.PORT || 4000
 });
 
 mongoose.Promise = q.Promise;
