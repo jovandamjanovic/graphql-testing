@@ -1,0 +1,19 @@
+{
+  "name": "hapigraphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jovan Damjanovic",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^0.3.3",
+    "graphql": "^0.11.7",
+    "graphql-tools": "^2.4.0",
+    "hapi": "^16.6.2",
+    "mongoose": "^4.12.1",
+    "q": "^1.5.0"
+  }
+}
